@@ -4,7 +4,6 @@ OneMax問題：[0, 1, 1, 1, 0, 1, 0, 1, 1, 0]のように0/1からなる数列�
 和が最大となるには, すべての要素が1となることを目指す.
 """
 
-import deap
 from deap import base
 from deap import creator
 from deap import tools
@@ -180,7 +179,7 @@ def main_short():
 
 def main_short_hof():
     """
-    short()に対して Hall of Fame (hof, 殿堂入り) を利用できる。
+    short()に対して Hall of Fame (hof, 殿堂入り) を利用できるようにした関数。
     殿堂入り：「選択」「交叉」「突然変異」などで良い個体が失われてしまう際、その個体を保持しておく機能。
     """
 
